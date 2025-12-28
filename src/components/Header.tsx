@@ -9,14 +9,14 @@ const Header = () => {
       className="bg-primary shadow-md fixed top-0 w-full z-10"
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <motion.h1
+        <motion.img
+          src="/logo1200x100.png"
+          alt="Royal Furniture Logo"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
-          className="text-2xl font-bold text-secondary font-serif"
-        >
-          Royal Furniture
-        </motion.h1>
+          className="h-10 w-auto"
+        />
         <nav>
           <ul className="flex space-x-6">
             <li><a href="#home" className="text-accent hover:text-secondary">Home</a></li>
